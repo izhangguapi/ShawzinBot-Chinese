@@ -1,6 +1,6 @@
 ![Logo](https://pic.imgdb.cn/item/60e2bb2a5132923bf8216627.png)
 
-此软件是一个将MIDI输入信息或文件转换为星际战甲三线琴按键的程序。任何MIDI输入的信息（MIDI键盘、虚拟MIDI频道等）或标准MIDI文件（SMF） [Standard MIDI Files (SMF)](https://www.midi.org/specifications/category/smf-specifications)都可以使用这个程序。
+此软件是一个将MIDI输入信息或文件转换为星际战甲三线琴按键的程序。任何MIDI输入的信息（MIDI键盘、虚拟MIDI频道等）或[标准MIDI文件(SMF)](https://www.midi.org/specifications/category/smf-specifications)都可以使用这个程序。
 
 
 # 下载
