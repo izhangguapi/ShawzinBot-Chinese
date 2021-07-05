@@ -1,49 +1,45 @@
-![ShawzinBot Logo](https://github.com/ianespana/ShawzinBot/blob/master/ShawzinBot/Resources/Shawzin.png)
+![ShawzinBot Logo](https://github.com/zhangguapipi/ShawzinBot_Chinese/blob/main/ShawzinBot/Resources/Shawzin.png)
 
-ShawzinBot is a program which converts a MIDI input or file to a series of key presses for the Shawzin. Any MIDI input works with this script (a MIDI keyboard, a virtual MIDI channel, etc), as well as [Standard MIDI Files (SMF)](https://www.midi.org/specifications/category/smf-specifications).
+此软件是一个将MIDI输入信息或文件转换为星际战甲三线琴按键的程序。任何MIDI输入的信息（MIDI键盘、虚拟MIDI频道等）或标准MIDI文件（SMF） [Standard MIDI Files (SMF)](https://www.midi.org/specifications/category/smf-specifications)都可以使用这个程序。
 
-# Virus Scan
-You can check the virus scan for the precompiled version [here](https://www.virustotal.com/gui/file/3cb941d7918c21f79d749aba8434b8ef55a8eadc024277c94502e3f89f4e40df/detection).
 
-# Download
-You can always get the latest version of ShawzinBot [here](https://github.com/ianespana/ShawzinBot/releases/latest).
+# 下载
+您可以点击[这里](https://github.com/zhangguapipi/ShawzinBot_Chinese/releases)下载最新版.
 
-# About
+# 关于
 
-### What's the ShawzinBot?
+### 这是一个什么软件？
 
-ShawzinBot is a third party software that can read MIDI files (.mid) and play their content in Warframe. It simulates key presses, and that's how the Shawzin is played.
+ShawzinBot 是一个第三方软件，它可以将MIDI文件（.mid）或者输入的MIDI信息在星际战甲的三线琴模拟按键演奏出来。
 
-### Is it safe?
+### 安全吗？
 
-ShawzinBot does not in any way interfere with gameplay, nor does it inject new code or modify existing one. It also does not tamper with memory in any way, thus is can't be catalogued as a cheat and should be safe to use.
+ShawzinBot 不会以任何方式干扰游戏的正常玩法，也不会注入新代码或修改现有代码，更不会以任何方式篡改内存。因此它不能被归类为作弊软件，可以安全使用。
 
-### How does it work?
+### 它是如何工作的？
 
-ShawzinBot is built on the C# [DryWetMIDI midi library by melanchall](https://github.com/melanchall/drywetmidi). This library loads a MIDI file and plays it. Every note event is intercepted by ShawzinBot and depending on note's ID, a different combination of keys is pressed to play the sound. ShawzinBot also allows the usage of external MIDI devices (keyboard, synthesizers, etc).
+ShawzinBot 它是基于 melanchall 的 [DryWetMIDI](https://github.com/melanchall/drywetmidi)库构建的，作用是加载一个 MIDI 文件并播放。ShawzinBot 会拦截每个音符，并根据音符在星际战甲按下不同的键组合来播放声音。ShawzinBot 还允许使用外部 MIDI 设备（键盘、合成器等）。
 
-# Getting Started
-Using ShawzinBot is quite easy. As long as you don't separate any of it's components, it can sit anywhere in your computer. No installation is required, all you need to do is double click ShawzinBot.exe and you'll be good to go! Please note, **you MUST match the the game's scale with the one displayed by the bot!**
+# 入门
+它可以处于计算机中的任何位置且无需安装，您只需双击exe程序即可！
 
-## Usage
-Once the program is running you'll see the following window:
+## 用法
 
-![ShawzinBot Overview](https://github.com/ianespana/ShawzinBot/blob/master/ShawzinBot/Resources/Overview.png)
+程序运行后，您会看到下面这个窗口：
 
-On the top left corner there's a button you can click to open and load MIDI files. Once a file is open, all you have to do is click play and tab back into game. ShawzinBot will not mess with your keyboard unless you're tabbed into Warframe!
+![ShawzinBot Overview](https://github.com/zhangguapipi/ShawzinBot_Chinese/blob/master/ShawzinBot/Resources/Overview.png)
 
-To use an external MIDI device, all you have to do is select if from the dropdown menu and start playing. If you do not see your device, just click the reload button to the right of the dropdown.
+在左上角有一个“文件夹”样式的按钮，您可以单击以打开用于播放的 MIDI 文件。选中所有音轨，单击播放并重新进入游戏。多条音轨可能会有放不出来的声音，您可以自行选择关闭某条音轨。
 
-The program defaults to playing the first MIDI track found inside the file. If you want to play a different track or tracks, all you have to do is open the "MIDI Tracks" dropdown and select the tracks there. Simple.
+要使用外部 MIDI 设备，您所要做的就是从下拉菜单中选择是否并开始播放。如果您没有看到您的设备，只需单击下拉列表右侧的重新加载按钮。
 
-There are 3 settings you can change at this moment:
-* Whammy - This will enable the whammy. Default off.
-* Transpose notes - This setting will attempt to transpose notes that are unplayable. Default on.
-* Play MIDI through speakers - This will play the MIDI file through your main sound device. Useful for testing songs. Default off.
+*  MIDI 输入设备 - 基本上用不上。
+*  MIDI 音轨 - 打开文件后一般是全选。
+*  颤音 - 我也不知道有什么用，默认关闭。
+*  音阶转换 - 关不会使音阶不能自动转换，默认开启。
+*  播放速度 - 在游戏里面演奏音乐的速度，默认为1.0的速度。
 
-# Special Thanks
-* [@lilggamegenius](https://github.com/lilggamegenius) - For helping with figuring out the key presses in game.
-* [/u/T2k5](https://www.reddit.com/user/T2k5/) - For making the original full keyboard script.
-
-# Notes
-* Multiple keys at the same time don't really work correctly due to Shawzin limitations, you can offset notes by a tiny bit to fix this issue.
+# 鸣谢
+* [@ianespana](https://github.com/ianespana) - 制作出国际版星际战甲三线琴演奏器。
+* [@lilggamegenius](https://github.com/lilggamegenius) - 帮助找出游戏中的按键。
+* [/u/T2k5](https://www.reddit.com/user/T2k5/) - 用于制作原始全键盘脚本。
