@@ -1,4 +1,4 @@
-![ShawzinBot Logo](https://github.com/zhangguapipi/ShawzinBot_Chinese/blob/main/ShawzinBot/Resources/Shawzin.png)
+![Logo](https://pic.imgdb.cn/item/60e2bb2a5132923bf8216627.png)
 
 此软件是一个将MIDI输入信息或文件转换为星际战甲三线琴按键的程序。任何MIDI输入的信息（MIDI键盘、虚拟MIDI频道等）或标准MIDI文件（SMF） [Standard MIDI Files (SMF)](https://www.midi.org/specifications/category/smf-specifications)都可以使用这个程序。
 
@@ -27,7 +27,7 @@ ShawzinBot 它是基于 melanchall 的 [DryWetMIDI](https://github.com/melanchal
 
 程序运行后，您会看到下面这个窗口：
 
-![ShawzinBot Overview](https://github.com/zhangguapipi/ShawzinBot_Chinese/blob/master/ShawzinBot/Resources/Overview.png)
+[![主界面](https://pic.imgdb.cn/item/60e2bb2a5132923bf821660d.png)](https://pic.imgdb.cn/item/60e2bb2a5132923bf821660d.png)
 
 在左上角有一个“文件夹”样式的按钮，您可以单击以打开用于播放的 MIDI 文件。选中所有音轨，单击播放并重新进入游戏。多条音轨可能会有放不出来的声音，您可以自行选择关闭某条音轨。
 
