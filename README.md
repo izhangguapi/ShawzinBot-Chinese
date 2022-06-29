@@ -1,4 +1,4 @@
-![Logo](https://pic.imgdb.cn/item/60e2bb2a5132923bf8216627.png)
+![Logo](https://github.com/izhangguapi/ShawzinBot-Chinese/blob/a85d01dce7b50335bb2cf8d72c1a489a0b2d8011/ShawzinBot/Resources/Shawzin.png)
 
 此软件是一个将MIDI输入信息或文件转换为星际战甲三线琴按键的程序。任何MIDI输入的信息（MIDI键盘、虚拟MIDI频道等）或[标准MIDI文件(SMF)](https://www.midi.org/specifications/category/smf-specifications)都可以使用这个程序。
 
